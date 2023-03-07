@@ -24,7 +24,7 @@ hash=$(shasum -a 256 $file)
 hash=$(echo $hash | cut -d ' ' -f1)
 alg="sha256"
 
-totalstr="$file - $size - $year-$month-$day - $time - $hash - $alg"
+totalstr="$file - $size - $year-$month-$day $time - $hash - $alg"
 echo $totalstr
 echo $totalstr >> files.log
 
