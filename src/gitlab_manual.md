@@ -54,4 +54,6 @@ $ git branch issue_create_manual
 
 ## Формирование стабильной версии в master с простановкой тега
 
+$ git tag stable
+
 
